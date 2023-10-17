@@ -1,0 +1,7 @@
+body{
+   /* to remove the inherent margin */
+   margin:0;
+   /* to make the body text center */
+   text-align: center;
+
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/css/layout.css">
+    <!-- whenever any page have link or script in it then it 
+    will be placed at the positions mentioned by style and script tag here -->
+<%- style %>
+</head>
+<body>
+    <!--this line below is used for implementing partial form is   -->
+    <%- include('_header');%> 
+    <%- body%>
+    <%- include('_footer');%>
+    <%- script %>
+</body>
+</html
