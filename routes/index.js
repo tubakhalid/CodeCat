@@ -1,10 +1,13 @@
 const express = require('express');
 //creation of router
 const router = express.Router();
+// importing the home controller
 const homeController = require('../controllers/home_controller')
 // making router available to other files
 module.exports = router;
 console.log("testing is route file loaded or not");
+
+
 // any request that comes in require the "index" of ( aka main route) routes
 router.get('/',homeController.home);
 

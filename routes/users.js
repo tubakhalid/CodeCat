@@ -11,5 +11,8 @@ router.get('/',userController.profile);
 router.get('/sign-up',userController.signUp);
 router.get('/sign-in',userController.signIn);
 
+// mapping the route to createUser controller
+router.post('/createUser',userController.createUser);
+
 //exporting route
 module.exports = router;
